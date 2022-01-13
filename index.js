@@ -2,7 +2,8 @@
 
 const fs = require('fs');
 const http = require('http');
-
+//FILES
+//////////////////////////////////////////////////////
 // const textIn = fs.readFileSync('./txt/input.txt', 'utf-8');
 // console.log(textIn);
 
@@ -26,3 +27,16 @@ const http = require('http');
 //     })
 // })
 // console.log('Will read file!');
+
+
+////////////////////////////////////////////////////
+//SERVER
+const server = http.createServer((req, res) => {
+    console.log(req);
+    res.end('Hello from the server!');
+});
+
+server.listen(8080, '127.0.0.1', () => {
+    console.log('Listening to request on port 8080')
+})
+

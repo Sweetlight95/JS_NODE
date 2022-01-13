@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const http = require('http');
+const url = require('url');
 //FILES
 //////////////////////////////////////////////////////
 // const textIn = fs.readFileSync('./txt/input.txt', 'utf-8');
@@ -28,15 +29,23 @@ const http = require('http');
 // })
 // console.log('Will read file!');
 
-
+// console.log(req);
+// console.log(req.url);
 ////////////////////////////////////////////////////
 //SERVER
 const server = http.createServer((req, res) => {
-    console.log(req);
-    res.end('Hello from the server!');
+    const pathName = req.url;
+
+    if(pathName === '/' || pathName === '/overview') {
+    res.end('This is the OVERVIEW');
+    } else if (pathName === '/product') {
+        res.end('This is the PRODUCT')
+    } else{
+        res.end('Page not found')
+    }
 });
 
 server.listen(8080, '127.0.0.1', () => {
-    console.log('Listening to request on port 8080')
+    console.log('Listening to requests on port 8080')
 })
 

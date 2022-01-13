@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "productName": "Fresh Avocados",
+        "image": "",
+        "from": "East-Nigeria",
+        "nutrients": "Vitamine B, Vitamine K",
+        "quantity": "4",
+        "price": "#200",
+        "organic": true,
+        "description": "A ripe avocado yields to gentle pressure when held in the palm of the hand and squeezed. The fruit is not sweet, but distinctly and subtly flavoured, with smooth texture. The"
+    },
+    {
+        "id": 1,
+        "productName": "Goat and Sheep Cheese",
+        "image": "",
+        "from": "Portugal",
+        "nutrients": "Vitamine A, Calcium",
+        "quantity": "250g",
+        "price": "#1500",
+        "organic": false,
+        "description": "Creamy and distinct in flavour."
+    },
+
+    {
+        "id": 2,
+        "productName": "Apollo Broccoli",
+        "image": "",
+        "from": "Portugal",
+        "nutrients": "Vitamine C, Vitamine K",
+        "quantity": "4",
+        "price": "#3000",
+        "organic": true,
+        "description": "Broccoli is know to be a hearty and tasty vegetable which is rich in dozens of nutrients."
+    },
+    {
+        "id": 3,
+        "productName": "Carrots",
+        "image": "",
+        "from": "Northern-Nigeria",
+        "nutrients": "Vitamine A, Vitamine K",
+        "quantity": "10",
+        "price": "#4000",
+        "organic": true,
+        "description": "The carrot is a root vegetable that is often claimed to be the perfect health food. It iis crunchy, tasty and highly nutritious." 
+    },
+    {
+        "id": 4,
+        "productName": "Sweet Corncobs",
+        "image": "",
+        "from": "Germany",
+        "nutrients": "Vitamine C, Magnesium",
+        "quantity": "4",
+        "price": "#200",
+        "organic": false,
+        "description": "Also known as maize, corn is one of the most popular cereal grains in the world."
+    }
+]
